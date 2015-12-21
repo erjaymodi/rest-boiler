@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rest_boiler.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rest_boiler.settings.local")
 
 application = get_wsgi_application()

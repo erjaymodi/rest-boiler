@@ -1,0 +1,1 @@
+web: gunicorn rest_boiler.wsgi --log-level=DEBUG
